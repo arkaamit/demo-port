@@ -79,9 +79,9 @@ nav li{
     font-weight: 700;
     font-size: 85px;
 }
-img{
-   padding-left: 505px;
-   }
+.banner img{
+   padding-left: 505px; 
+}
 
    /*  */
 .main{
@@ -101,7 +101,7 @@ img{
      }
 
      .sec-title{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         font-size: 35px;
      }
 
@@ -126,3 +126,44 @@ img{
         font-weight: 700;
        
      }
+
+/* What I do */
+
+.what-i-do{
+   
+    margin-top: 130px; 
+    text-align: center;
+    padding: 80px 150px;
+
+    }
+
+.skill-box{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+   
+}
+
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+
+
+
+}
+
+.skill-title{
+   font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.skill-description{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* resume style */

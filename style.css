@@ -103,6 +103,7 @@ nav li{
      .sec-title{
         margin-bottom: 50px;
         font-size: 35px;
+        text-align: center;
      }
 
      .sec-description{
@@ -167,3 +168,59 @@ margin-bottom: 30px;
 }
 
 /* resume style */
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+
+}
+.resume-title .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-title .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-title .description{
+    color: #757575;
+}
+
+.resume-item{
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px   200px;
+}
+
+.contact .sec-title{
+    text-align: left;
+}
+
+
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.contact a{
+text-decoration: none;
+}
